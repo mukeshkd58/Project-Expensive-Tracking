@@ -1,23 +1,17 @@
 # import streamlit as st
-# Ye line Streamlit library ko import karti hai.
-# Streamlit ek tool hai jisse hum Python code likh kar web app bana sakte hain (jaise dashboard ya form).
-# st short form hai Streamlit ke liye.
-# Matlab: hum st.header() likhenge instead of streamlit.header().
 
 # import pandas as pd #to create dateframe
-# Ye line Pandas library import karti hai aur uska short name pd rakhti hai.
-# Pandas data ke saath kaam karne ke liye hoti hai — jaise table banana (DataFrame), sort karna, analyze karna, etc.
 
 # Text elements
 # st.header("Streamlit Core Features")
 # st.subheader("Text Elements")
 # st.text("This is a simple text elemment.")
-# st.header() → bada heading banata hai
-# Example: “Streamlit Core Features” title jaisa bold likha dikhega.
-# st.subheader() → chhoti heading banata hai
-# “Text Elements” likha thoda chhota heading dikhega.
-# st.text() → normal plain text likhta hai
-# “This is a simple text element.” ek normal sentence jaisa dikhai dega.
+# st.header() 
+# Example: “Streamlit Core Features” 
+# st.subheader() 
+# “Text Elements” 
+# st.text() 
+# “This is a simple text element.” 
 # On screen:
 # Streamlit Core Features      ← big heading
 # Text Elements                ← smaller heading
@@ -33,14 +27,13 @@
 # })
 
 # st.table(df)
-# Ye Pandas ka DataFrame (table) bana raha hai — ek chhoti si table jisme 2 columns hain:
 
 # Data	Amount
 # 2024-08-01	250
 # 2024-08-02	134
 # 2024-08-03	340
 # st.table(df)
-# Ye Streamlit function st.table() is DataFrame ko table format mein web page par dikhata hai.
+
 
 #Charts
 # st.subheader("Charts")
@@ -319,4 +312,5 @@ with tab1:
     add_update_tab()
 with tab2:
     analytics_tab()
+
 
